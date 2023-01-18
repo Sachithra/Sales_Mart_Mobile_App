@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"
+
+            > </item>
+        <item
+            android:id="@+id/customer"
+            android:title="Customer Register"
+            android:icon="@drawable/ic_baseline_group_add_24"
+
+            > </item>
+        <item
+            android:id="@+id/product"
+            android:title="Add Product"
+            android:icon="@drawable/ic_baseline_arrow_circle_up_24"
+
+            > </item>
+        <item
+            android:id="@+id/order"
+            android:title="Place Order"
+            android:icon="@drawable/ic_baseline_backpack_24"
+
+            > </item>
+
+
+    </group>
+    <item android:title="View Details">
+        <menu>
+            <item
+                android:id="@+id/viewCustomer"
+                android:icon="@drawable/ic_baseline_preview_24"
+                android:title="View Customer" />
+
+            <item
+                android:id="@+id/viewProduct"
+                android:icon="@android:drawable/ic_menu_view"
+                android:title="View Product" />
+
+
+        </menu>
+    </item>
+
+</menu>
